@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto";
+}
+
+.navbar {
+    vertical-align: top;
+    height: 30px;
+    background-color: gray;
+    padding: 20px 50px 20px 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-search input {
+     height: 30px;
+     width: 500px;
+}
+
+.nav-login button {
+    border: 3px solid black;
+    font-size: 1.1em;
+    background-color: lightseagreen;
+    padding: 2px 10px 2px 10px;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 5px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.column1 {
+    display: flex;
+    flex: 2;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.column2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.word-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid black;
+    margin: 50px 20px 25px 20px;
+    padding: 30px;
+}
+
+.word-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid black;
+    margin: 50px 20px 25px 20px;
+    padding: 30px;
+}
+
+.word-left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.word-left-side > * {
+    padding: 2px;
+}
+
+.word-left-side button {
+    margin-top: 15px;
+    border: 3px solid black;
+    font-size: 1.1em;
+    background-color: yellow;
+    padding: 4px 12px 4px 12px;
+    box-shadow: 2px 2px 2px black;
+    margin-left: 5px;
+}
+
+.word-definition-left-side {
+    padding: 10px 20px 10px 20px;
+}
+
+.right-side-add-definition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    padding: 30px;
+    margin: 50px 20px 25px 20px;
+}
+
+.right-side-add-definition button {
+    margin-top: 15px;
+    border: 3px solid black;
+    font-size: 1.1em;
+    background-color: green;
+    padding: 8px 80px 8px 80px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.word-left-side h2 {
+    font-size: 2.5em;
+}
+
+.word-left-side h5 {
+    font-size: 1.2em;
+}
+
+.word-definition-left-side p {
+    font-size: 1.2em;
+}
